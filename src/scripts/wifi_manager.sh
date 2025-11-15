@@ -2,7 +2,7 @@
 # Define que o interpretador do script é bash
 
 # Variáveis de configuração
-PING_TARGET="8.8.8.8"        # Endereço IP para teste de conexão (Google DNS)
+PING_TARGET="10.42.0.1"        # Endereço IP para teste de conexão (Google DNS)
 MAX_TRIES=15                 # Número máximo de tentativas para checar a conexão
 WAIT_TIME=2                  # Tempo em segundos entre as tentativas
 INITIAL_WAIT=10              # Tempo de espera inicial para estabilizar a conexão Wi-Fi
