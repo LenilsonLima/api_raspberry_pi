@@ -63,7 +63,7 @@ EOF
 sudo tee /etc/hostapd/hostapd.conf > /dev/null <<EOF
 interface=wlan0
 driver=nl80211
-ssid=Balanca-AP
+ssid=BALANCA-AP
 hw_mode=g
 channel=7
 wmm_enabled=0
@@ -75,7 +75,7 @@ wpa_passphrase=12345678
 wpa_key_mgmt=WPA-PSK
 rsn_pairwise=CCMP
 EOF
-# Cria o arquivo de configuração do hostapd para transformar wlan0 em um Access Point com SSID "Balanca-AP" e senha "12345678"
+# Cria o arquivo de configuração do hostapd para transformar wlan0 em um Access Point com SSID "BALANCA-AP" e senha "12345678"
 
 echo "[INFO] Criando arquivo dnsmasq.conf..."
 sudo tee /etc/dnsmasq.conf > /dev/null <<EOF
